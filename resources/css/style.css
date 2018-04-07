@@ -1,15 +1,31 @@
-body {
+/* This CSS file is reffered by the excursion project */
+
+* {
   font-family: Verdana;
   background: black;
   text-align: center;
+  color: white;
 }
 h1 {
   font-weight: normal;
   font-size: 50px;
-  color: white;
 }
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+p {
+  font-size: 21px;
+  color: Gray;
+}
+/* For consistency this calss should be used for every link */
 span.link {
   color: Aquamarine;
   font-size: 16px;
   text-decoration: underline;
+}
+/* The copyright ID is unique */
+p#copyright {
+  color: Gray;
+  text-align: right;
 }
